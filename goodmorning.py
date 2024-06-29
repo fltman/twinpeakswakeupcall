@@ -113,7 +113,7 @@ Don't forget to include the time, day, month and weekday, the weather and the ne
 	)
 	print (messages)
 	response = client.chat.completions.create(
-		model="gpt-4-1106-preview",
+		model="gpt-4o",
 		messages=messages,
 		temperature=1,
 		top_p=1,
